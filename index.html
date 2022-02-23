@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Science på Rysensteen Gymnasium</title>
+        <style>
+            h1 {
+                font-family: "Hind", sans-serif;
+                font-weight: 100;
+                text-align: center;
+                letter-spacing: 1px;
+            }
+        
+            h2 {
+                margin-top: 15px;
+                margin-bottom: 5px;
+                font-size: 34px;
+                font-weight: 100;
+                color: white;
+                text-align: center;
+            }
+            
+            h3 {
+                font-weight: 100;
+                margin-bottom: 0;
+            }
+            
+            h4 {
+                font-family: "Hind", sans-serif;
+                font-size: 20px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                margin-left: 20px;
+                text-align: left;
+                color: white;
+            }
+            
+            h5 {
+                font-family: "Hind", sans-serif;
+                font-size: 20px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                padding: 5px;
+                text-align: right;
+                color: white;
+                width: 100%;
+                background-color: rgba(242,102,73,0.8);
+            }
+            
+            h6 {
+                font-family: "Hind", sans-serif;
+                font-size: 18px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                text-align: left;
+                color: white;
+            }
+            
+            p {
+                text-align: center;
+                font-size: 15px;
+                font-family: "Hind", sans-serif;
+            }
+            
+            ul {
+                text-align: left;
+                font-family: "Hind", sans-serif;
+                margin-bottom: 20px;
+                color: white;
+            }
+            
+            
+            a {
+                font-family: "Hind", sans-serif;
+                margin: 10px;
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            
+            .alignImage {
+                text-align: center;
+                margin-bottom: 20px;
+                margin-top: 32px;
+            }
+            
+            .quote {
+                text-align: center;
+                font-size: 28px;
+                margin-bottom: 10px;
+                margin-left: 100px;
+                margin-right: 100px;
+                color: #374746;
+            }
+            
+            .name {
+                margin-top: 10px;
+                margin-bottom: 65px;
+            }
+            
+            .indledningCard {
+                font-size: 30px;
+                color: rgba(242,102,73,0.8);
+                text-align: left;
+                margin-left: 120px;
+                margin-bottom: 0px;
+            }
+            .instruktioner {
+                font-size: 18px;
+                text-align: left;
+                margin-left: 120px;
+                margin-bottom: 40px;
+            }
+           
+            .flip-card {
+              background-color: transparent;
+              width: 300px;
+              height: 400px;
+              perspective: 1000px;
+            }
+
+            .flip-card-inner {
+              position: relative;
+                left: 125px;
+              width: 100%;
+              height: 100%;
+              text-align: center;
+              transition: transform 0.6s;
+              transform-style: preserve-3d;
+              box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+            }
+
+            .flip-card:hover .flip-card-inner {
+              transform: rotateY(180deg);
+            }
+
+            .flip-card-front, .flip-card-backAlmen, .flip-card-backBiotek, .flip-card-backFyma {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+            }
+
+
+            .flip-card-backAlmen {
+              background-color: #3D947A;
+              color: white;
+              transform: rotateY(180deg);
+            }
+            .flip-card-backBiotek {
+                background-color: #7D7469;
+              color: white;
+              transform: rotateY(180deg);
+            }
+            .flip-card-backFyma {
+                background-color: #9EB9CB;
+              color: white;
+              transform: rotateY(180deg);
+            }
+            .column {
+              float: left;
+              width: 28%;
+            }
+
+            .row::after {
+              clear: both;
+              display: block;
+            }
+            
+            .container {
+                max-width: 920px;
+                min-width: 370px;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                padding: 5px 40px;
+                background: rgba(242,102,73,0.8);
+                border: 1px solid rgba(242,102,73,0.8);
+                border-radius: 1px;
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+            }
+            
+            .hovedArgumenter {
+                font-size: 20px;
+            }
+            .argumenter {
+                list-style: none;
+            }
+            
+            .linkRys {
+                color: #374746;
+            }
+                
+        </style>
+    </head>
+    <body>
+        <h1>SCIENCE PÅ RYSENSTEEN GYMNASIUM</h1>
+        <h5>At have science på en international profilskole</h5>
+        <p class="alignImage">
+            <img src="Billeder/3t.png" width=610> <img src="Billeder/3y.png" width=618.5>
+        </p>
+        <p class="quote">
+            <i>"Science er fedt, fordi det er de fedeste typer mennesker, der går på science, og vi har helt klart de bedste lærere"</i>
+            <p class="name">Sacha, 3.y <br> Fysik/Matematik</p>
+        </p>
+        <p class="indledningCard"><b>Mød nogle af Science-eleverne på Rysensteen.</b></p>
+        <p class="instruktioner">Hold cursoren over kortene for at se detaljer om deres studieretningslinjer samt for at læse et interview med eleverne.</p>
+        <p class="allCards">
+         <div class="row">
+            <div class="column">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Billeder/Profilikon.jpg" alt="Avatar" style="width:300px;height:300px;">
+                            <h3>Emilie Paulsen</h3>
+                            <p>3.u | Almen Science</p>
+                        </div>
+                        <div class="flip-card-backAlmen">
+                            <h2>Almen Science</h2> 
+                            <h4>Linjefag</h4>
+                            <ul>
+                                <li>Matematik A</li>
+                                <li>Kemi B</li>
+                                <li>Fysik B</li>
+                            </ul>
+                            <h4>Valgfag på B- og A-niveau</h4>
+                       
+                            <ul>
+                                <li>Idræt B</li>
+                                <li>Musik/Drama B</li>
+                                <li>Fransk/Tysk A</li>
+                                <li>Engelsk A</li>
+                                <li>Fysik A</li>
+                                <li>Kemi A</li>
+                            </ul>
+                            <a href="EmilieAlmenInterview.html" target=_blank>Tryk her for at læse om hvad Emilie siger om Almen Science på Rys</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Billeder/Profilikon.jpg" alt="Avatar" style="width:300px;height:300px;">
+                            <h3>Iben Sala</h3>
+                            <p>3.x | Bioteknologi</p>
+                        </div>
+                        <div class="flip-card-backBiotek">
+                            <h2>Biotek</h2> 
+                            <h4>Linjefag</h4>
+                            <ul>
+                                <li>Bioteknologi A</li>
+                                <li>Matematik A</li>
+                                <li>Fysik B</li>
+                            </ul>
+                            <h4>Valgfag på B- og A-niveau</h4>
+                            <ul>
+                                <li>Idræt B</li>
+                                <li>Musik/Drama B</li>
+                                <li>Fransk/Tysk A</li>
+                                <li>Engelsk A</li>
+                                <li>Fysik A</li>
+                                <li>Kemi A</li>
+                            </ul>
+                            <a href="IbenBiotekInterview.html" target=_blank>Tryk her for at læse om hvad Iben siger om Biotek på Rys</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Billeder/Profilikon.jpg" alt="Avatar" style="width:300px;height:300px;">
+                            <h3>Sacha Guilbert</h3>
+                            <p>3.y | Fysik/Matematik</p>
+                        </div>
+                        <div class="flip-card-backFyma">
+                            <h2>FyMa</h2> 
+                            <h4>Linjefag</h4>
+                            <ul>
+                                <li>Fysik A</li>
+                                <li>Matematik A</li>
+                                <li>Kemi B</li>
+                            </ul>
+                            <h4>Valgfag på B- og A-niveau</h4>
+                            <ul>
+                                <li>Idræt B</li>
+                                <li>Biologi B</li>
+                                <li>Musik/Drama B</li>
+                                <li>Fransk/Tysk A</li>
+                                <li>Engelsk A</li>
+                                <li>Kemi A</li>
+                            </ul>
+                            <a href="SachaInterview.html" target=_blank>Tryk her for at læse om hvad Sacha siger om FyMa på Rys</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </p>
+        <br style="clear:both;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <h2>Vælg science på Rysensteen</h2>
+            <h4>Vi har...</h4>
+            <br>
+            <ul>
+                <li class="hovedArgumenter">
+                    <h6>Mega fede destinationer</h6>
+                </li>
+                <li class="argumenter">På Almen Science-linjen, går rejsen til New York og Maine i USA, når I starter i 3.g.<br>Biotek er delt op i to klasser og dermed to destinationer: x'erne tager til Island, mens t'erne skal til Singapore.<br>Hvis du vælger FyMa, så går turen til Boston, hvor I skal besøge Harvard University og MIT.</li>
+
+                <br>
+                <li class="hovedArgumenter">
+                    <h6>Engagerede og talentfulde lærere</h6>
+                <li class="argumenter">blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah<br>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah<br>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</li>
+                </li>
+                <br>
+                <li class="hovedArgumenter">
+                    <h6>Den fedeste mulighed for at kombinere science med humaniora</h6>
+                </li>
+                 <li class="argumenter">blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah<br>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah<br>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</li>
+                </li>
+                <br>
+            </ul>
+        </div>
+        <br>
+         <p>
+            <img src="Billeder/RysLogo.png" style="width:115px;height:100px;">
+        </p>
+        <a class="linkRys" href="https://rysensteen.dk/vb/studieretningsudbud/science" target=_blank> <p>Læs mere om Science på Rysensteen Gymnasium her</p></a>
+    </body>
+<html>
